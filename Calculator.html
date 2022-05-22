@@ -1,0 +1,103 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Java.js"></script>
+</head>
+
+<body>
+    <div class="box">
+        <form>
+            <table>
+                <tr>
+                    <th colspan="4">
+                        <h1>Calculator</h1>
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="4">
+                        <input type="text" id="textBox1" value="">
+                        <br/>
+                        <input type="text" id="textBox2" value="">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <input type="button" onclick='sieben(this.value)' id="num7" value="7">
+                    </th>
+                    <th>
+                        <input type="button" onclick='acht(this.value)' id="num8" value="8">
+                    </th>
+                    <th>
+                        <input type="button" onclick='neun(this.value)' id="num9" value="9">
+                    </th>
+                    <th>
+                        <input type="button" onclick='divy(this.value)' id="div" value="/">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <input type="button" onclick='vier(this.value)' id="num4" value="4">
+                    </th>
+                    <th>
+                        <input type="button" onclick='fuenf(this.value)' id="num5" value="5">
+                    </th>
+                    <th>
+                        <input type="button" onclick='sechs(this.value)' id="num6" value="6">
+                    </th>
+                    <th>
+                        <input type="button" onclick='multy(this.value)' id="mul" value="*">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <input type="button" onclick='eins(this.value)' id="num1" value="1">
+                    </th>
+                    <th>
+                        <input type="button" onclick='zwei(this.value)' id="num2" value="2">
+                    </th>
+                    <th>
+                        <input type="button" onclick='drei(this.value)' id="num3" value="3">
+                    </th>
+                    <th>
+                        <input type="button" onclick='subty(this.value)' id="sub" value="-">
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <input type="button" onclick='nully(this.value)' id="num0" value="0">
+                    </th>
+                    <th>
+                        <input type="button" onclick='doty(this.value)' id="dot" value=".">
+                    </th>
+                    <th>
+                        <input type="button" onclick='sumty(this.value)' id="sum" value="+">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <input type="button" onclick="clearAll()" id="ac" value="AC">
+                    </th>
+                    <th colspan="2">
+                        <input type="button" onclick="equaly()" id="equal" value="=">
+                    </th>
+                    <th>
+                        <input type="button" id="del" value="DEL">
+                    </th>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+    <div class="lamping">
+        <div id="lamp1">
+
+        </div>
+    </div>
+</body>
+
+</html>
